@@ -1,9 +1,8 @@
 /* General */
 
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
-@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Courgette');
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Bitter', serif;
 }
 
 /* Navbar */
@@ -13,7 +12,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    font-size: 1.8em;
+    font-size: 20px;
     color: #fafafa
 }
 
@@ -27,9 +26,13 @@ body {
     border-bottom: 2px #FF7703 solid;
 }
 
-
 .navbar-light .navbar-toggler {
     color: #fafafa;
+}
+
+.icons {
+    padding-right: 10px;
+    font-size: 25px;
 }
 
 /* Standings */
@@ -38,6 +41,11 @@ body {
     padding: 30px 0;
     color: #016201;
     font-weight: 700;
+}
+
+.table-background {
+    background-color: rgba(1, 98, 1);
+    color: #fafafa;
 }
 
 /* Buttons */
@@ -58,19 +66,65 @@ body {
     border-color: #fafafa;
 }
 
+.green-button {
+    background-color: #016201;
+    border-color: #FF7703;
+}
+
+.green-button:hover {
+    background-color: #fafafa;
+    color: #016201;
+    border-color: #FF7703;
+}
+
+.white-button {
+    background-color: #fafafa;
+    color: #016201;
+}
+
+.white-button:hover {
+    background-color: #016201;
+    color: #fafafa;
+}
+
+.close {
+    color: #Fafafa;
+}
+
 /* flags */
 
-.custom-flag{
+.custom-flag {
     padding-left: 40px;
+}
+
+/* Modal */
+
+.modal-headerBG {
+    background-color: #016201;
+    color: #fafafa;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 2.5;
+}
+
+.modal-COYBIG {
+    color: #fafafa;
+    font-size: 15px;
+    font-family: 'Courgette', cursive;
+}
+
+.modal-footer {
+    background-color: #FF7703;
 }
 
 /* Footer */
 
 .footer-bg {
     background-color: #FF7703;
-
     padding: 10px;
-    color: #F8F9FA;
+    color: #Fafafa;
 }
 
 .social-icon {
@@ -98,8 +152,12 @@ body {
 /* Media Queries */
 
 @media (max-width: 650px) {
-    
     .table-title {
         text-align: center;
     }
-} 
+}
+
+@media (max-width:1005px) and (min-width:766px) {
+    .navbar-light .navbar-nav .nav-link, .icons {
+        font-size: 15px;
+    }
