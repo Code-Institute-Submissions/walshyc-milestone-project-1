@@ -8,7 +8,7 @@ body {
 
 /* Navbar */
 
-.bg-light{
+.bg-light {
     background-color: #016201 !important;
 }
 
@@ -17,28 +17,27 @@ body {
     color: #fafafa
 }
 
-
-
 .nav-item {
     padding-right: 30px;
 }
 
-.navbar-light .navbar-nav .active>.nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show>.nav-link {
-    color: #000000;
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     font-weight: 700;
-    
+    color: #FF7703;
+    border-bottom: 2px #FF7703 solid;
+}
+
+
+.navbar-light .navbar-toggler {
+    color: #fafafa;
 }
 
 /* Standings */
 
-.table-title{
+.table-title {
     padding: 30px 0;
-color: #016201;
-font-weight: 700;
-
+    color: #016201;
+    font-weight: 700;
 }
 
 /* Buttons */
@@ -50,7 +49,7 @@ font-weight: 700;
     border-radius: 50px;
     border-color: #fafafa;
     font-size: 20px;
-    color:#016201;
+    color: #016201;
     font-weight: 700;
 }
 
@@ -59,11 +58,17 @@ font-weight: 700;
     border-color: #fafafa;
 }
 
+/* flags */
+
+.custom-flag{
+    padding-left: 40px;
+}
+
 /* Footer */
 
 .footer-bg {
     background-color: #FF7703;
-    height: 50px;
+
     padding: 10px;
     color: #F8F9FA;
 }
@@ -78,11 +83,11 @@ font-weight: 700;
     color: #016201;
 }
 
-.footer-quote{
- font-family: 'Courgette', cursive;
+.footer-quote {
+    font-family: 'Courgette', cursive;
 }
 
-.footer-quote:hover{
+.footer-quote:hover {
     color: #016201;
 }
 
@@ -90,14 +95,11 @@ font-weight: 700;
     color: #016201;
 }
 
-
 /* Media Queries */
-@media (max-width: 550px) { 
-    .footer-bg {
-      height: 70px;
-    }
 
-    .footer-social{
-        padding: 17.5px 0px;
+@media (max-width: 650px) {
+    
+    .table-title {
+        text-align: center;
     }
-  }
+} 
