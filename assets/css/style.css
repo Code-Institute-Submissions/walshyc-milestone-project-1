@@ -48,6 +48,11 @@ body {
     color: #fafafa;
 }
 
+.team-photo{
+    margin-top: 106px;
+
+}
+
 
 /* Gallery */
 .submit-form{
@@ -167,4 +172,12 @@ body {
     .navbar-light .navbar-nav .nav-link, .icons {
         font-size: 15px;
     }
+}
+
+
+@media (max-width: 650px) {
+.team-photo{
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
 }
