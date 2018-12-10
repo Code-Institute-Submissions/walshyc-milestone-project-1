@@ -5,6 +5,30 @@ body {
     font-family: 'Bitter', serif;
 }
 
+.page-header {
+    margin: 25px 0;
+    font-size: 2em;
+    color: #fafafa;
+    background-color: #016201;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.city-header {
+    margin: 25px 0;
+    font-size: 20px;
+    color: #fafafa;
+    background-color: #016201;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.border-travel{
+    border: 5px black solid;
+}
+
 /* Navbar */
 
 .bg-light {
@@ -74,6 +98,22 @@ body {
     padding-bottom: 15px;
 }
 
+/* Travel */
+
+
+
+.travel-heading{
+    color: #016201;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.badge-primary {
+    font-size: 1rem;
+    color: #fafafa;
+    background-color: #016201;
+}
+
 /* Standings */
 
 .table-title {
@@ -130,13 +170,15 @@ body {
 
 .green-button {
     background-color: #016201;
-    border-color: #FF7703;
+    border: none;
+   
 }
 
 .green-button:hover {
     background-color: #fafafa;
     color: #016201;
-    border-color: #FF7703;
+    border: none;
+    
 }
 
 .white-button {
@@ -199,8 +241,8 @@ body {
     color: #016201;
 }
 
-.footer-quote, {
-    font-family: 'Courgette', cursive;
+.footer-quote {
+    font-family: "Courgette", cursive;
 }
 
 .footer-quote:hover {
