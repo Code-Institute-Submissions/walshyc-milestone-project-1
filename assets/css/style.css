@@ -217,10 +217,12 @@ body {
     color: #fafafa;
     font-size: 15px;
     font-family: 'Courgette', cursive;
+    font-size: 20px;
 }
 
 .modal-footer {
     background-color: #FF7703;
+    display: inline;
 }
 
 /* Footer */

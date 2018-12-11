@@ -69,14 +69,15 @@
                 photos and standings. See the travel section for information on away trips.</p>
             <p class="lead">To join our club click the button below, fill in the form and we will get back to you!</p>
 
-            <h4 class="display-5 text-capitalize jumbo-quote">Come on you boys in <span class="green-font">green!</span></h4> <a class="btn btn-sm btn-primary btn-join-jumbo" data-toggle="modal" data-target="#joinModal" role="button">Join</a>
+            <h4 class="display-5 text-capitalize jumbo-quote">Come on you boys in <span class="green-font">green!</span></h4>
+            <a class="btn btn-sm btn-primary btn-join-jumbo" data-toggle="modal" data-target="#joinModal" role="button">Join</a>
 
         </div>
 
         <div class="row">
             <div class="col4 m-sm-auto">
                 <div class="card mx-auto">
-                    <img src="assets/images/castle-inn.jpg" alt="castle inn pub" class="card-img-top meeting-img" >
+                    <img src="assets/images/castle-inn.jpg" alt="castle inn pub" class="card-img-top meeting-img">
                     <div class="card-body">
                         <h4 class="card-title">Next Meeting</h4>
                         <p class="card-text">Our next members meeting will take place:</p>
@@ -149,7 +150,8 @@
                     </tr>
                 </table>
 
-                <img class="mx-auto d-block mb-4" src="assets/images/UEFA_Euro_2020_Logo.svg" alt="Euro2020 Logo" height="120px;">
+                <img class="mx-auto d-block mb-4" src="assets/images/UEFA_Euro_2020_Logo.svg" alt="Euro2020 Logo"
+                    height="120px;">
             </div>
         </div>
     </div>
@@ -187,7 +189,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form action="">
+                    <form action="thanks.html" method="get">
                         <div class="form-row">
                             <div class="col">
                                 <input type="text" name="firstName" id="firstName" class="form-control mb-3"
@@ -219,34 +221,34 @@
                                 <h6>What game's are you interested in attending?</h6>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="gameOptions" id="homeGames"
-                                        value="homeGames">
+                                        value="homeGames" required>
                                     <label class="form-check-label" for="homeGames">Home</label>
                                 </div>
 
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="gameOptions" id="awayGames"
-                                        value="awayGames">
+                                        value="awayGames" required>
                                     <label class="form-check-label" for="homeGames">Away</label>
                                 </div>
 
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="gameOptions" id="allGames" value="allGames">
+                                    <input class="form-check-input" type="radio" name="gameOptions" id="allGames" value="allGames" required>
                                     <label class="form-check-label" for="homeGames">Home & Away</label>
                                 </div>
                             </div>
 
                         </div>
-
+                        <div class="form-row">
+                            <button type="submit" class="btn btn-primary green-button btn-sm">Send Application</button>
+                        </div>
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <div class="col">
+                    <div class="row">
+                        <div class="col">
 
-                        <h4 class="modal-COYBIG text-capitalize">Come on you boys in <span class="green-font">green!</span></h4>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary green-button btn-sm">Send Application</button>
+                            <h4 class="modal-COYBIG text-capitalize">Come on you boys in <span class="green-font">green!</span></h4>
+                        </div>
                     </div>
                 </div>
             </div>
