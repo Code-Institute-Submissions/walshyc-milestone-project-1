@@ -25,7 +25,7 @@ body {
     display: inline-block;
 }
 
-.border-travel{
+.border-travel {
     border: 5px black solid;
 }
 
@@ -60,6 +60,7 @@ body {
     font-size: 25px;
 }
 
+
 /* Index */
 
 .jumbotron {
@@ -71,7 +72,6 @@ body {
     width: 425px;
     margin-left: 14px;
 }
-
 
 .jumbotron .display-4, .card-title {
     color: #016201;
@@ -98,9 +98,7 @@ body {
 
 /* Travel */
 
-
-
-.travel-heading{
+.travel-heading {
     color: #016201;
     font-weight: bold;
     font-size: 1.5rem;
@@ -121,7 +119,7 @@ body {
 }
 
 .table-background {
-    background-color: rgba(1, 98, 1);
+    background-color: rgb(1, 98, 1);
     color: #fafafa;
 }
 
@@ -169,14 +167,12 @@ body {
 .green-button {
     background-color: #016201;
     border: none;
-   
 }
 
 .green-button:hover {
     background-color: #fafafa;
     color: #016201;
     border: none;
-    
 }
 
 .white-button {

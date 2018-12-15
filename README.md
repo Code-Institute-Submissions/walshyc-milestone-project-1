@@ -75,6 +75,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 I have used the Google Chrome Dev Tools to ensure that each page appears correctly at the most common screen sizes from large desktop to tablet to smartphone.
 
+Testing on different browers!!
+
 ## Deployment
 
 I have hosted this project on GitHub pages and regularly committed to the GitHib repository for this project.
