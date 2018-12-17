@@ -38,8 +38,8 @@ Photos - The photo gallery page displays photos grouped by various trips that we
 
 
 ### Features Left to Implement
-- Dedicated members area to apply for tickets
-- Previous results
+- Dedicated members area to apply for tickets for away games.
+- A dedicated history page that will display the previous results of the Irish football team going back over the years.
 
 ## Technologies Used
 
@@ -59,6 +59,14 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
+#### Validation
+
+I ran each HTML file through a HTMl validator on https://validator.w3.org. This showed up some issues with stray i tages around some of the Social Media icons in the footer. The validator also showed up the fact that I had px after the height and width in the attribute of some of my images that I hadn't realised wasn't required.
+
+I used https://jigsaw.w3.org/css-validator to validate my CSS file style.css, this proved to be all correct.
+
+#### Usability
+
 1. Join:
     1. Click on the join button to bring up the modal.
     2. Tried to submit the form with each field empty separately and it wouldn't allow me to.
@@ -73,9 +81,18 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 4. All the page titles are correct.
 
+
 I have used the Google Chrome Dev Tools to ensure that each page appears correctly at the most common screen sizes from large desktop to tablet to smartphone.
 
-Testing on different browers!!
+I loaded each page on the following browers:
+- Google Chrome (Windows & Android)
+- Firefox
+- Safari (iOS)
+
+All pages worked as expected on the above browers at the Large, Medium, Small and Xtra Small viewpoints.
+
+Each page 
+
 
 ## Deployment
 
