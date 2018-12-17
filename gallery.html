@@ -25,7 +25,7 @@
 </head>
 
 <body>
-
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-light bg-light ">
         <div class="container">
 
@@ -58,14 +58,15 @@
             <button class="btn btn-sm btn-primary btn-join" data-toggle="modal" data-target="#joinModal">Join</button>
         </div>
     </nav>
-
+    <!-- Main Content -->
     <div class="container">
         <p class="page-header"><i class="fas fa-camera icons"></i> Photo Gallery</p>
 
+        <!-- 2018 Images -->
 
         <div class="images-2018">
-            <p class="city-header"><span class="flag-icon flag-icon-at custom-flag"></span> <span class="flag-icon flag-icon-gb-wls custom-flag"></span> <span
-                    class="flag-icon flag-icon-ge custom-flag"></span> World Cup Qualifying 2018 - Vienna, Cardiff &
+            <p class="city-header"><span class="flag-icon flag-icon-at custom-flag"></span> <span class="flag-icon flag-icon-gb-wls custom-flag"></span>
+                <span class="flag-icon flag-icon-ge custom-flag"></span> World Cup Qualifying 2018 - Vienna, Cardiff &
                 Tbilisi</p>
             <div class="row mb-4">
                 <div class="col-md mb-3">
@@ -79,6 +80,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- France 2016 Images -->
 
         <div class="images-france">
             <p class="city-header"><span class="flag-icon flag-icon-fr custom-flag"></span> Euro 2016 - France</p>
@@ -107,7 +110,7 @@
             </div>
         </div>
 
-
+        <!-- Poland 2012 Images -->
 
         <div class="images-euro2012">
             <p class="city-header"><span class="flag-icon flag-icon-pl custom-flag"></span> Euro 2012 - Poland</p>
@@ -135,9 +138,9 @@
                 </div>
             </div>
 
-            
-        </div>
 
+        </div>
+        <!-- Photo Upload Form -->
         <div class="row">
             <div class="col">
                 <p class="city-header">Send us your photos!</p>
@@ -174,7 +177,7 @@
 
     </div>
 
-
+    <!-- Footer -->
     <footer class="footer footer-bg container-fluid">
         <div class="container">
             <div class="row">
@@ -196,82 +199,84 @@
 
     <!-- Modal -->
     <div class="modal fade" id="joinModal" tabindex="-1" role="dialog" aria-labelledby="joinModal" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header modal-headerBG align-middle">
-                        <a href="index.html" class="navbar-brand"><img src="assets/images/roissc-mayo-logo2.png" alt="logo"
-                                width="40" height="40"></a>
-                        <h5 class="modal-title" id="exampleModalCenterTitle">Join Our Supporters Club</h5>
-                        <button type="button" class="close btn-close-color" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form action="thanks.html" method="get">
-                            <div class="form-row">
-                                <div class="col">
-                                    <input type="text" name="firstName" id="firstName" class="form-control mb-3"
-                                        placeholder="First Name" required>
-                                </div>
-                                <div class="col">
-                                    <input type="text" name="surname" id="surname" class="form-control mb-3" placeholder="Surname"
-                                        required>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="col">
-                                    <input type="email" name="email" id="emailModal" class="form-control" placeholder="Email Address"
-                                        required>
-                                    <small id="emailNoteModal" class="form-text text-muted mb-3">Your email address is safe with
-                                        us!</small>
-                                </div>
-    
-                            </div>
-                            <div class="form-row">
-                                <div class="col">
-                                    <input type="number" name="phone" id="phone" class="form-control mb-3" placeholder="Phone Number"
-                                        required>
-                                </div>
-    
-                            </div>
-                            <div class="form-row">
-                                <div class="col mb-3">
-                                    <h6>What game's are you interested in attending?</h6>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="gameOptions" id="homeGames"
-                                            value="homeGames" required>
-                                        <label class="form-check-label" for="homeGames">Home</label>
-                                    </div>
-    
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="gameOptions" id="awayGames"
-                                            value="awayGames" required>
-                                        <label class="form-check-label" for="homeGames">Away</label>
-                                    </div>
-    
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="gameOptions" id="allGames" value="allGames" required>
-                                        <label class="form-check-label" for="homeGames">Home & Away</label>
-                                    </div>
-                                </div>
-    
-                            </div>
-                            <div class="form-row">
-                                <button type="submit" class="btn btn-primary green-button btn-sm">Send Application</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <div class="row">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header modal-headerBG align-middle">
+                    <a href="index.html" class="navbar-brand"><img src="assets/images/roissc-mayo-logo2.png" alt="logo"
+                            width="40" height="40"></a>
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Join Our Supporters Club</h5>
+                    <button type="button" class="close btn-close-color" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="thanks.html" method="get">
+                        <div class="form-row">
                             <div class="col">
-    
-                                <h4 class="modal-COYBIG text-capitalize">Come on you boys in <span class="green-font">green!</span></h4>
+                                <input type="text" name="firstName" id="firstName" class="form-control mb-3"
+                                    placeholder="First Name" required>
                             </div>
+                            <div class="col">
+                                <input type="text" name="surname" id="surname" class="form-control mb-3" placeholder="Surname"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="email" name="email" id="emailModal" class="form-control" placeholder="Email Address"
+                                    required>
+                                <small id="emailNoteModal" class="form-text text-muted mb-3">Your email address is safe
+                                    with
+                                    us!</small>
+                            </div>
+
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="number" name="phone" id="phone" class="form-control mb-3" placeholder="Phone Number"
+                                    required>
+                            </div>
+
+                        </div>
+                        <div class="form-row">
+                            <div class="col mb-3">
+                                <h6>What game's are you interested in attending?</h6>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gameOptions" id="homeGames"
+                                        value="homeGames" required>
+                                    <label class="form-check-label" for="homeGames">Home</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gameOptions" id="awayGames"
+                                        value="awayGames" required>
+                                    <label class="form-check-label" for="homeGames">Away</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gameOptions" id="allGames" value="allGames"
+                                        required>
+                                    <label class="form-check-label" for="homeGames">Home & Away</label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-row">
+                            <button type="submit" class="btn btn-primary green-button btn-sm">Send Application</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <div class="row">
+                        <div class="col">
+
+                            <h4 class="modal-COYBIG text-capitalize">Come on you boys in <span class="green-font">green!</span></h4>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 </body>
 

@@ -51,10 +51,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [jQuery](https://jquery.com)
     -  **jQuery** was used to complement Bootstrap to allow the navbar to collapse and also for the modal.
 
-- [Font Awesome] (https://fontawesome.com/)
+- [Font Awesome](https://fontawesome.com/)
     -  **Font Awesome 5.5.0** was used for various icons on the Navbar and also on each page heading.
 
-- [Flag Icon] (http://flag-icon-css.lip.is/)
+- [Flag Icon](http://flag-icon-css.lip.is/)
     -  **Flag Icon** was used to improve the display of each country on most pages.
 
 ## Testing
@@ -91,7 +91,11 @@ I loaded each page on the following browers:
 
 All pages worked as expected on the above browers at the Large, Medium, Small and Xtra Small viewpoints.
 
-Each page 
+#### Speed Test
+
+I used https://gtmetrix.com to test the load speed on each page. After initially testing each page, it was clear that the photos in the gallery page were too large and slowing down the load speed. I resized them and it greatly improved the load speed of this page.
+
+The homepage had a load speed of 1.1 seconds and a total page size of 1.55mb. After reducing the images oin the gallery page I got the page size down for roughly 4mb to 1.6mb, which I am happy with.
 
 
 ## Deployment
