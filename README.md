@@ -6,11 +6,13 @@ The next venue and date for the next meeting of the supporter’s club will alwa
  
 ## UX
 
-Wireframes
+#### Wireframes
 
 [Wireframe 1 - Home & Travel pages](assets/images/wireframe1.jpg)
 
 [Wireframe 2 - Standings & Gallery pages](assets/images/wireframe2.jpg)
+
+#### About The Site
 
 This website is for current and prospective members of the ROISSC - Mayo Branch. People would visit this site when looking for information on when the next meeting of the supporter’s club is on, this information will always be displayed on the home page.  For anyone looking for travel information on cities that Ireland will be playing in they could visit the Travel page for this information.
 
@@ -61,9 +63,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 #### Validation
 
-I ran each HTML file through a HTMl validator on https://validator.w3.org. This showed up some issues with stray i tages around some of the Social Media icons in the footer. The validator also showed up the fact that I had px after the height and width in the attribute of some of my images that I hadn't realised wasn't required.
+I ran each HTML file through a HTMl validator on [HTML Validator](https://validator.w3.org). This showed up some issues with stray i tags around some of the Social Media icons in the footer. The validator also showed up the fact that I had px after the height and width in the attribute of some of my images that I hadn't realised wasn't required.
 
-I used https://jigsaw.w3.org/css-validator to validate my CSS file style.css, this proved to be all correct.
+I used [CSS Validator](https://jigsaw.w3.org/css-validator) to validate my CSS file style.css, this proved to be all correct.
 
 #### Usability
 
@@ -84,31 +86,33 @@ I used https://jigsaw.w3.org/css-validator to validate my CSS file style.css, th
 
 I have used the Google Chrome Dev Tools to ensure that each page appears correctly at the most common screen sizes from large desktop to tablet to smartphone.
 
-I loaded each page on the following browers:
+I loaded each page on the following browsers:
 - Google Chrome (Windows & Android)
 - Firefox
 - Safari (iOS)
 
-All pages worked as expected on the above browers at the Large, Medium, Small and Xtra Small viewpoints.
+All pages worked as expected on the above browsers at the Large, Medium, Small and Extra Small viewpoints where applicable.
 
 #### Speed Test
 
-I used https://gtmetrix.com to test the load speed on each page. After initially testing each page, it was clear that the photos in the gallery page were too large and slowing down the load speed. I resized them and it greatly improved the load speed of this page.
+I used [GTMetrix](https://gtmetrix.com) to test the load speed on each page. After initially testing each page, it was clear that the photos in the gallery page were too large and slowing down the load speed. I resized them and it greatly improved the load speed of this page.
 
-The homepage had a load speed of 1.1 seconds and a total page size of 1.55mb. After reducing the images oin the gallery page I got the page size down for roughly 4mb to 1.6mb, which I am happy with.
+The homepage had a load speed of 1.1 seconds and a total page size of 1.55mb. After reducing the images on the gallery page, I got the page size down for roughly 4mb to 1.6mb, which I am happy with.
 
 
 ## Deployment
 
 I have hosted this project on GitHub pages and regularly committed to the GitHib repository for this project.
 
-T
-## Credits
+I created the Github repository called milestone-project-1 in my [GitHub Page](https://github.com/walshyc).
+
+The link to the homepage of the project is [here](https://walshyc.github.io/milestone-project-1/index.html).
+
 
 ### Content
 - I used content from Wikipedia to get information on each stadium such as capacity and year opened. 
+- I researched the travel information myself using airline & hotel websites.
 
 ### Media
-- The photos used on the gallery page were all sourced from members of the supporter’s club, these were used with their permission. The stadium images were retrieved from http://www.stadiumguide.com/.
-
+The photos used on the gallery page were all sourced from members of the supporter’s club, these were used with their permission. The stadium images were retrieved from [Stadium Guide](http://www.stadiumguide.com/).
 
